@@ -1,8 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #87CEEB;
-    margin: 0;
-    padding: 0;
+
   }
   
   header, nav, main {
@@ -11,7 +10,7 @@ body {
     align-items: center;
   }
   
-  .tarjeta {
+.tarjeta {
     background-color: #F7F7F7;
     max-width: 800px;
     margin-top: 20px;
@@ -21,28 +20,28 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
   
-  .tarjeta img {
+.tarjeta img {
     display: block;
     margin: 0 auto;
     max-width: 400px;
     border-radius: 8px;
   }
   
-  .tarjeta h1 {
+.tarjeta h1 {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
   }
   
-  .descripcion {
+.descripcion {
     font-size: 18px;
     color: #888;
     text-align: center;
     margin-top: 10px;
   }
   
-  .info-adicional {
+.info-adicional {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
     gap: 10px; /* espacio entre columnas */
@@ -53,16 +52,14 @@ body {
     text-align: center;
 }
 
-  
-  
   /* Centrado horizontal con margen arriba */
-  .boton-ver-mas {
+.boton-ver-mas {
     display: block;
     margin: 20px auto 0; 
     padding: 20px 20px;
     background-color: #87CEEB;
-    color: white;
-    text-decoration: none;
+    color: black;
+    text-decoration: none;/*para quitar la linea subrayada*/
     border-radius: 5px;
     font-weight: bold;
     text-align: center;
@@ -70,11 +67,11 @@ body {
   }
   
 /*El hover es para que cuando pase el mouse por encima del boton oscurezca un poco*/
-  .boton-ver-mas:hover { 
-    background-color: #5dbcd2;
+.boton-ver-mas:hover { 
+    background-color: #003366;
   }
   
-  .info-adicional .item img {
+.info-adicional .item img {
     width: 200px;         
     height: 200px;        
     object-fit: cover;    /* recorta la imagen si es necesario para mantener el tamaño */
@@ -86,7 +83,7 @@ body {
 .info-adicional .item1 img {
   width: 200px;         
   height: 200px;        
-  object-fit: cover;    /* recorta la imagen si es necesario para mantener el tamaño */
-  margin-top: 27px;     /* espacio entre el texto y la imagen */
-  border-radius: 8px;   /* para que tengan bordes redondeados */
+  object-fit: cover;    
+  margin-top: 27px;     
+  border-radius: 8px;   
 }
